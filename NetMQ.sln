@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMQ", "src\NetMQ.csproj", "{69957438-AD05-49FC-A842-4A874DF85F8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C37DE3DA-C111-4234-B9E2-835A2535DC11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "test\IntegrationTests\IntegrationTests.csproj", "{D1C1AAFB-1E3F-4CF5-8925-61BBB5716BC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69957438-AD05-49FC-A842-4A874DF85F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69957438-AD05-49FC-A842-4A874DF85F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69957438-AD05-49FC-A842-4A874DF85F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69957438-AD05-49FC-A842-4A874DF85F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C1AAFB-1E3F-4CF5-8925-61BBB5716BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C1AAFB-1E3F-4CF5-8925-61BBB5716BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C1AAFB-1E3F-4CF5-8925-61BBB5716BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C1AAFB-1E3F-4CF5-8925-61BBB5716BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1C1AAFB-1E3F-4CF5-8925-61BBB5716BC6} = {C37DE3DA-C111-4234-B9E2-835A2535DC11}
+	EndGlobalSection
+EndGlobal
