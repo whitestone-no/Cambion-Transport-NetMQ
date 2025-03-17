@@ -8,10 +8,10 @@
     <Authors>Whitestone</Authors>
     <Product>Whitestone Cambion</Product>
     <Description>NetMQ transport for Whitestone Cambion</Description>
-    <Copyright>Copyright © 2025</Copyright>
+    <Copyright>Copyright (c) Whitestone</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://cambion.whitestone.no/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/whitestone-no/Cambion.Transport.NetMQ</RepositoryUrl>
+    <RepositoryUrl>https://github.com/whitestone-no/Cambion-Transport-NetMQ</RepositoryUrl>
     <PackageIconUrl>https://cambion.whitestone.no/images/Cambion_Logo_128.png</PackageIconUrl>
     <PackageIcon>Cambion_Logo_128.png</PackageIcon>
     <PackageTags>messaging servicebus esb enterprice-service-bus cambion event-aggregator netmq zeromq</PackageTags>
